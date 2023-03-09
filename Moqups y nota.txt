@@ -1,0 +1,10 @@
+Tuve algunos inconvenientes con flexbox. Me costó, en algunos casos cuando ya estaba mas complejo, identificar las consecuencias en etiquetas hijas. La portada no termina de encajar bien y, en general, la mayoría creo que no quedó muy responsive en cuanto a la reducción de la pantalla.
+Posiblemente haya atributis CSS de más en contenedores y en la etiqueta hija en sí.
+
+Perdón por que podría haber estado mas ordenado todo.
+Muchas gracias por la revisión
+
+Saludos
+Sebastián-
+
+https://app.moqups.com/CKGA0J1KUdGdd4rNgYdELMyEwj8uUUeu/view/page/ad64222d5

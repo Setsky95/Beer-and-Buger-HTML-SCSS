@@ -1,0 +1,12 @@
+{
+  "name": "vangogh-main---prueba-scss",
+  "version": "1.0.0",
+  "description": "Segunda pre-entrega",
+  "main": "index.js",
+  "scripts": {
+    "compileishon": "sass --watch scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
