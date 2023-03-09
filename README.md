@@ -13,3 +13,4 @@ Más allá de la velocidad que aporte el servidor, entiendo que podría hacerse 
 Por último (no se si la palabra es overwflow) pero en algunos tamaños parece tener un leve margen que no pude corregir.
 
 Muchas gracias por todo!
+# Vangogh-scss
