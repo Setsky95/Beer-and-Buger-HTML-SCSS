@@ -117,10 +117,6 @@ a {
   transform: scale(1.08) rotate(-2deg);
 }
 
-.btn-grow-animation:hover {
-  /* AGREGAR ANIMACION */
-}
-
 /* FOOTER */
 .texto-web-footer {
   color: rgb(248, 244, 244);
