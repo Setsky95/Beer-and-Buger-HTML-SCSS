@@ -4,7 +4,7 @@
   "description": "Segunda pre-entrega",
   "main": "index.js",
   "scripts": {
-    "compileishon": "sass --watch scss:css"
+    "compile": "sass --watch scss:css"
   },
   "keywords": [],
   "author": "",
