@@ -1,0 +1,78 @@
+   /* ANIMACIONES INDEX */
+
+  
+   .img-menu-index {
+    transition: transform 0.6s ease-in-out;
+  }
+
+.img-menu-index:hover {
+    transform: scale(1.08) rotate(2deg);
+  }
+
+  .img-menu-index-izq {
+    transition: transform 0.6s ease-in-out;
+  }
+
+.img-menu-index-izq:hover {
+    transform: scale(1.08) rotate(-2deg);
+  }
+    
+  @media only screen and (min-width: 767px) {
+    .texto-titulo {
+        width: 500px;
+        font-size: 90px ;
+        color: rgb(248, 244, 244);
+        font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        line-height: 4.4rem;}
+ 
+    
+    
+ .texto-subitutlo {
+    width: 500px;
+    font-size: 50px ;
+    color: rgb(248, 244, 244);
+    font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+ }       
+}
+  
+.texto-titulo {
+
+    font-size: 70px ;
+    color: rgb(248, 244, 244);
+    font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 4.4rem;}
+
+.texto-subitutlo {
+
+    font-size: 30px ;
+    color: rgb(248, 244, 244);
+    font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+ }       
+
+
+.texto-web-boton {
+    color: rgb(248, 244, 244);
+    font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+.contenedor-portada-index {
+    padding: 5rem 0 5rem 0;
+    height: 25rem;
+    background-image: url("../imgs//portada_indezx.webp");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.contenedor-boton-portada {
+    width: 10rem;
+    justify-content: center;
+}
+
+.contenedor-final-index {
+    margin-bottom: 8rem;
+}

@@ -1,0 +1,66 @@
+.nuestras {
+    color: white;
+    font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    line-height: 2rem;
+
+}
+.burgers {
+    color: white;
+    font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    line-height: 2rem;
+
+}
+ /* Formato texto general */
+.texto-web {
+    color: rgb(248, 244, 244);
+    font-family: 'Oswald', sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+/*FONDOS TARJETAS MENÚ  */
+    .fondo_auto {
+        background-image: url("../imgs/fondo_tarjeta_autoretato.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; }
+
+    .fondo_vangogh {
+        background-image: url("../imgs/fondo_tarjeta_vangogh.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+
+    .fondo_girasoles{
+        background-image: url("../imgs/fondo_tarjeta_girasoles.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+
+    .fondo_raices {
+        background-image: url("../imgs/fondo_tarjeta_raices.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+
+    .fondo_terraza {
+        background-image: url("../imgs/fondo_tarjeta_terraza.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+
+    .fondo_cuervos {
+        background-image: url("../imgs/fondo_tarjeta_cuervos.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+
+    .fondo_viñedo {
+        background-image: url("../imgs/fondo_tarjeta_viñedo.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+
+    .fondo_vincent{
+        background-image: url("../imgs/fondo_tarjeta_vincent.webp");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+}
