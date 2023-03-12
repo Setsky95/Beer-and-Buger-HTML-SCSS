@@ -1,3 +1,19 @@
+@media (min-width: 1000px) {
+   
+.container-nosotros-flex {
+    margin: 4rem 0 8rem 0;
+}
+}
+@media (min-width: 1300px) {
+   
+    .container-nosotros-flex {
+        margin: 8rem 0 12rem 0;
+        }
+    }
+    
+
+    
+
 @media only screen and (max-width: 767px) {
 
 .container-nosotros {
@@ -53,6 +69,8 @@
          .separador-nosotros {
             height: 3rem;
         }
-        
+        .separador-nosotros-bottom {
+            height: 10rem;
+        }
     }
  

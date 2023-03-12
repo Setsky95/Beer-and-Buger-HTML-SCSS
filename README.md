@@ -1,16 +1,15 @@
-Segunda pre-entrega 
+Tecera pre-entrega.
 
-Hay ciertos elementos a pulir claramente
--Los títulos y subtítulos no son 100% homogéneos en tamaño y padding.
--Tuve que "forzar" con CSS ciertas propiedades, sobretodo de orden y espaciado-
--Hice un .div en "nosotros" únicamente para generar espaciado
+Dejo algunos de los avances mas concretos:
 
-Entre muchas otras cosas.
+-Apliqué sass para dividir el CSS en partials sobretodo. No tiene mucho ya que utilicé bastante bootstrap.
+-Agregué animaciones hover sobre los elementos del menú en el index (burger - cerveza - tapas) 
+-Creé una #404
+-Pasé todas las imágenes a webp
+-Trabajé mas lo responsive y los tamaños.
 
-También veo que uso demasiadas imáganes y puede tardar en cargar.
-Más allá de la velocidad que aporte el servidor, entiendo que podría hacerse una animación preview para que no muestre el proceso de carga.
+Creo que tengo que mejorar bastante el tema de la pseudoclases y la división entre bs y css.
 
-Por último (no se si la palabra es overwflow) pero en algunos tamaños parece tener un leve margen que no pude corregir.
+Saludos!
 
-Muchas gracias por todo!
 # Vangogh-scss
