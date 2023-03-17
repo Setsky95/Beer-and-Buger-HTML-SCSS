@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+.active {
+  color: rgb(240, 162, 162) !important;
+}
+
 /* ANIMACIONES INDEX */
 .img-menu-index {
   transition: transform 0.6s ease-in-out;
