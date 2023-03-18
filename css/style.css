@@ -120,6 +120,10 @@ a {
   text-align: right;
 }
 
+/* 
+.footer-vangogh {
+width: 100 !important;
+} */
 @media (min-width: 1000px) {
   .container-nosotros-flex {
     margin: 4rem 0 8rem 0;
@@ -260,6 +264,10 @@ a {
   background-image: url("../imgs/fondo_tarjeta_vincent.webp");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.titulo-burger {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
