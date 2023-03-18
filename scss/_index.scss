@@ -77,3 +77,16 @@
     margin-bottom: 8rem;
 }
 
+.carousel-index {
+  
+  background-image: url(../imgs/fondo_carusel_index.png);
+  background-position: center; 
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .carousel-index {
+    background-image:none;
+  }
+}

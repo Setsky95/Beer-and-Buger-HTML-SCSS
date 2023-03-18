@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a81451de29.js" crossorigin="anonymous"></script>
     <link rel="icon" href="imgs/logo_favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="imgs/logo_favicon.png" type="image/x-icon">
     <title>Vangogh</title>
@@ -28,7 +29,7 @@
               <a class="nav-link active texto-web" aria-current="page" href="/index.html"><h4>INICIO</h4></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link texto-web" href="./Pages/burger_bs.html"><h4>BURGERS</h4></a>
+              <a class="nav-link texto-web" href="./Pages/burger_bs.html"><h4>BURGERS </h4></a>
             </li>
             <li class="nav-item ">
               <a class="nav-link texto-web" href="./Pages/birras.html"><h4>BIRRAS</h4></a>
@@ -47,14 +48,14 @@
 </header>
             <div class=" d-flex flex-column flex-md-row text-center flex-row fondo_portada justify-content-evenly align-items-center contenedor-portada-index">
               <div class="d-flex contenedor-boton-portada  ">
-                <a class="btn btn-grow-animation btn-outline-light px-3 py-1 texto-web d-none d-lg-block  d-md-block" href="https://bit.ly/Contacto-Vangogh"> <h6 class="m-0"> CONTACTANOS</h6></a>
+                <a class="btn btn-grow-animation btn-outline-light px-3 py-1 texto-web d-none d-lg-block  d-md-block" href="https://bit.ly/Contacto-Vangogh"> <h6 class="m-0">CONTACTANOS</h6></a>
               </div> 
               <a class="nav-link texto-web" aria-current="page" href="/index.html">
               <div class="d-flex  flex-column px-5 ">
                   <img src="./imgs/logo-portada-index.webp" class="img-fluid " alt="logo" >
                 </div></a>
                 <div class="d-flex contenedor-boton-portada  ">
-                  <a class="btn  btn-grow-animation btn-outline-light px-3 py-1  texto-web " href="#"> <h6 class="m-0 "> HACER PEDIDO</h6></a>
+                  <a class="btn  btn-grow-animation btn-outline-light px-3 py-1  texto-web " href="#"> <h6 class="m-0 ">HACER PEDIDO</h6></a>
                 </div> 
                 
               </div>
@@ -91,11 +92,11 @@
                       <p class="texto-web display-6 ">  Cuidadosamente seleccionadas, con sabores para satisfacer los paladares más exigentes.</p>
                    </div>
                       </div>
-                    </a>
+                    </a class>
                     <div class="separador-nosotros"></div> <!-- SEPARADOR QUE NO DEBERIA IR -->
 
                     
-                    <a class="mt-15" href="./Pages/burger_bs.html#nuestras-tapas" > 
+                    <a class="my-15 " href="./Pages/burger_bs.html#nuestras-tapas" > 
     
                       <div class=" my-15 container.fluid d-flex flex-column flex-md-row justify-content-between contenedor-final-index "> <!-- contenedor principal -->
      
@@ -112,7 +113,53 @@
     
                         </div>
                       </a>
-        
+                   
+                      
+                      <div id="carouselExampleIndicators" class="container-fluid carousel slide mx-auto mt-5 carousel-index">
+                        <h2 class=" display-5  burgers  text-center py-4"> PASIÓN <span class="nuestras " > POR LAS BURGERS</span> </h2>
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./imgs/carrusel-index-1.webp" class="d-block img-fluid mx-auto rounded" alt="mostrador-cerveza">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imgs/carrusel-index-5.webp" class="d-block img-fluid mx-auto rounded" alt="vangogh">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imgs/carrusel-index-4.webp" class="d-block img-fluid mx-auto rounded" alt="vasos en barra">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imgs/carrusel-index-3.webp" class="d-block img-fluid mx-auto rounded" alt="pintas de cerveza">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imgs/carrusel-index-2.webp" class="d-block img-fluid mx-auto rounded" alt="Sorteo">
+                          </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev mx-auto" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next mx-auto" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+
+                      
+                      <!-- BOTÓN WSP -->
+                      <a href="https://bit.ly/Contacto-Vangogh" class="btn-wsp-float" target="_blank">
+                        <i class="fa fa-whatsapp my-float"></i>
+                        </a>
+
     <div class="container-fluid mt-4 footer-vangogh w-100">
 
         <footer class="text-white text-center text-lg-start bg-dark mt-5" >
